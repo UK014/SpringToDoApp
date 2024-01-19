@@ -1,0 +1,14 @@
+CREATE DATABASE TODO
+
+USE TODO
+
+CREATE TABLE Task (
+    id INT PRIMARY KEY,
+    task VARCHAR(255),
+    priority VARCHAR(50),
+    time DATETIME,
+    status VARCHAR(50)
+);
+
+SELECT * FROM Task;
+
